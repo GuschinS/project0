@@ -1,0 +1,75 @@
+$color: darkgrey;
+$font: Helvetica, sans-serif;
+
+%table {
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+@media screen and (max-width: 400px) {
+    body main {
+        background-color: beige;
+        padding-top: 10px;
+    }
+    figure>img {
+        width: 100%;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font: $font;
+}
+
+main {
+    padding: 0 20px;
+}
+
+ol {
+    margin-left: 20%;
+        li:nth-child(3) {
+            color: red;
+    }
+}
+
+ul li:last-child {
+    color: blue;
+}
+
+table {
+    @extend %table;
+}
+
+td {
+    @extend %table;
+    color: blue;
+}
+
+th  {
+    @extend %table;
+    color: red;
+}
+
+figcaption {
+    margin: 1em;
+}
+
+img {
+    width: 80%;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: $color;
+    text-align: center;
+    padding-top: 10px;
+}

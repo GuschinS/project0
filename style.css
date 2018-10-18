@@ -1,0 +1,86 @@
+table,
+td,
+th {
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+@media screen and (max-width: 400px) {
+    body main {
+        background-color: beige;
+        padding-top: 10px;
+    }
+
+    figure > img {
+        width: 100%;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font: Helvetica, sans-serif;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -80px;
+}
+
+main,
+ul {
+    padding: 0 20px;
+}
+
+.ul {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+ol {
+    margin-left: 20%;
+}
+
+ol li:nth-child(3) {
+    color: red;
+}
+
+ul li:last-child {
+    color: blue;
+}
+
+td {
+    color: blue;
+}
+
+th {
+    color: red;
+}
+
+figcaption {
+    margin: 1em;
+}
+
+img {
+    width: 80%;
+}
+
+.push {
+    height: 80px;
+}
+
+footer
+    {
+    height: 80px;
+    width: 100%;
+    background-color: darkgrey;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
