@@ -11,3 +11,5 @@ Web Programming with Python and JavaScript
 - TABLE contains a table.
 - IMG contains a picture and description.
 - Project contains a SCSS file
+
+Go on the website [GitHub Pages](https://guschins.github.io/project0/index.html).
